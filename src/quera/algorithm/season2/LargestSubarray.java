@@ -2,7 +2,7 @@ package quera.algorithm.season2;
 
 import java.util.Scanner;
 
-public class LargestSubspace {
+public class LargestSubarray {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
