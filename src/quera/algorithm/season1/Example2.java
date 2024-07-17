@@ -16,9 +16,7 @@ public class Example2 {
 
         String userSecondInput = scanner.nextLine();
         String[] secondNumbers = userSecondInput.split(" ");
-        if (secondNumbers.length > n) {
-            throw new IllegalArgumentException("NUMBER IS GREATER THAN CONDITION!");
-        }
+
 
         int[] as = new int[q]; // its better use array instead of list for better performance
         for (int i = 0; i < q; i++) {

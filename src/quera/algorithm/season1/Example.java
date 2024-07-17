@@ -21,17 +21,6 @@ public class Example {
         for (int i = 0; i < q; i++) {
             as[i] = scanner.nextInt();
         }
-//
-//        qList.forEach(i -> {
-//            AtomicInteger count = new AtomicInteger();
-//            count.set(0);
-//            Arrays.asList(secondNumbers).forEach(xNumber -> {
-//                if (Integer.parseInt(xNumber) <= i) {
-//                    count.getAndIncrement();
-//                }
-//            });
-//            System.out.println(count.get());
-//        });
 
         for (int i : as) {
             int count = 0;
