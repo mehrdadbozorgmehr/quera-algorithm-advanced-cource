@@ -1,8 +1,6 @@
 package quera.algorithm.season2;
 
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class BubbleSort {
 
@@ -21,13 +19,22 @@ public class BubbleSort {
                 }
             }
         }
-        String result = Arrays.stream(arr)
+/*        String result = Arrays.stream(arr)
                 .mapToObj(String::valueOf)
                 .collect(Collectors.joining(" "));
 
-        System.out.println(result);
+        System.out.println(result);*/
+
+        printArray(arr);
 
     }
+
+    static void printArray(int[] arr) {
+        for (int j : arr)
+            System.out.print(j + " ");
+        System.out.println();
+    }
+
 
     private static void swap(int[] arr, int j) {
         int temp = arr[j];
